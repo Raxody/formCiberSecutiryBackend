@@ -10,7 +10,7 @@ import java.util.List;
 @Repository
 public class CourseServiceImpl implements CourseService {
 
-    public static final String THE_USER_IS_ALREADY_REGISTERED = "El usuario ya se encuentra registrado con esa cedula";
+    public static final String THE_USER_IS_ALREADY_REGISTERED = "El usuario ya se encuentra registrado con esa identificación";
     private final CourseCrudRepository courseCrudRepository;
 
     public CourseServiceImpl(CourseCrudRepository courseCrudRepository) {
